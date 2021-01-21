@@ -47,8 +47,10 @@ body {
 	}
 	80% {
 		stroke-dashoffset: 6900;
+		fill: transparent;
 	}
 	100% {
 		stroke-dashoffset: 6900;
+		fill: #39ff14;
 	}
 }
