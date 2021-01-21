@@ -18,7 +18,7 @@ body {
 
 .content h2 {
 	position: absolute;
-	color: #fff;
+
 	transform: translate(-50%, -50%);
 	font-size: 8em;
 }
@@ -26,4 +26,16 @@ body {
 .content h2:nth-child(1) {
 	color: transparent;
 	-webkit-text-stroke: 2px #2ed5ff;
+}
+
+.content h2:nth-child(2) {
+	color: #2ed5ff;
+	animation: animate 4s ease-in-out;
+}
+
+@keyframes animate {
+	/* https://bennettfeely.com/clippy/ */
+	0%,
+	100% {
+	}
 }
