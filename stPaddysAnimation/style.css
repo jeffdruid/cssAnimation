@@ -35,7 +35,7 @@ body {
 }
 
 .container .icon.paddys:hover path {
-	animation: animate 3s linear forwards;
+	animation: animate 2s linear forwards;
 }
 
 @keyframes animate {
