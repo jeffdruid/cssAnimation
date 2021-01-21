@@ -8,6 +8,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	background: #000;
 }
 
 .container {
@@ -26,4 +27,9 @@ body {
 	fill: transparent;
 	stroke: 10;
 	stroke: #39ff14;
+}
+
+.container .icon.paddys path {
+	stroke-dasharray: 3450;
+	stroke-dashoffset: 3450;
 }
