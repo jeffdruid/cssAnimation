@@ -21,3 +21,9 @@ body {
 .container .icon {
 	width: 400px;
 }
+
+.container .icon path {
+	fill: transparent;
+	stroke: 10;
+	stroke: #39ff14;
+}
