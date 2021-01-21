@@ -33,3 +33,7 @@ body {
 	stroke-dasharray: 3450;
 	stroke-dashoffset: 3450;
 }
+
+.container .icon.paddys:hover path {
+	animation: animate 2s linear forwards;
+}
