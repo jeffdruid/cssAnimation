@@ -37,3 +37,9 @@ body {
 .container .icon.paddys:hover path {
 	animation: animate 2s linear forwards;
 }
+
+@keyframes animate {
+	0% {
+		stroke-dashoffset: 0;
+	}
+}
