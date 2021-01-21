@@ -30,12 +30,29 @@ body {
 
 .content h2:nth-child(2) {
 	color: #2ed5ff;
-	animation: animate 4s ease-in-out;
+	animation: animate 4s ease-in-out infinite;
 }
 
 @keyframes animate {
 	/* https://bennettfeely.com/clippy/ */
 	0%,
 	100% {
+		clip-path: polygon(
+			0 100%,
+			100% 100%,
+			100% 12%,
+			89% 15%,
+			80% 22%,
+			69% 31%,
+			58% 38%,
+			47% 36%,
+			38% 28%,
+			26% 20%,
+			13% 16%,
+			0 16%
+		);
+	}
+	50% {
+		/* wave - polygon */
 	}
 }
