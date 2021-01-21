@@ -37,22 +37,11 @@ body {
 	/* https://bennettfeely.com/clippy/ */
 	0%,
 	100% {
-		clip-path: polygon(
-			0 100%,
-			100% 100%,
-			100% 12%,
-			89% 15%,
-			80% 22%,
-			69% 31%,
-			58% 38%,
-			47% 36%,
-			38% 28%,
-			26% 20%,
-			13% 16%,
-			0 16%
-		);
+		clip-path: polygon(0 100%, 100% 100%, 100% 21%, 53% 65%, 0 81%);
 	}
 	50% {
 		/* wave - polygon */
+		clip-path: polygon(0 100%, 100% 100%, 100% 54%, 53% 65%, 0 43%);
+		/* need improve wave polygon  */
 	}
 }
