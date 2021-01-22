@@ -24,4 +24,16 @@ h1 span {
 	display: table-cell;
 	margin: 0;
 	padding: 0;
+	animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+	0% {
+		color: #fff;
+		filter: blur(2px);
+	}
+	0% {
+	}
+	0% {
+	}
 }
