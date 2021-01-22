@@ -57,6 +57,6 @@ h1 span:nth-child(4) {
 	95% {
 		color: #222;
 		filter: blur(0px);
-		text-shadow: 0 0 10px none;
+		text-shadow: none;
 	}
 }
