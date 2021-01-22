@@ -18,6 +18,7 @@ h1 {
 	color: #222;
 	font-size: 16em;
 	text-transform: uppercase;
+	-webkit-box-reflect: below 0 linear-gradient(transparent, #0001);
 }
 
 h1 span {
