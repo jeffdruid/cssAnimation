@@ -28,12 +28,15 @@ h1 span {
 }
 
 @keyframes animate {
-	0% {
+	0%,
+	100% {
 		color: #fff;
 		filter: blur(2px);
 	}
-	0% {
-	}
-	0% {
+
+	5%,
+	100% {
+		color: #222;
+		filter: blur(0px);
 	}
 }
