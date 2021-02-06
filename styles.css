@@ -20,26 +20,26 @@ body {
 
 .container .box {
 	position: relative;
-	left: -400px;
+	left: -200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: calc(100% + 800px);
+	width: calc(100% + 400px);
 
 	-webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
-	animation: animateSurface 1.5s ease-in-out infinite;
+	animation: animateSurface 1.2s ease-in-out infinite;
 }
 
 .container .box .cube {
 	position: relative;
-	width: 400px;
-	height: 400px;
+	width: 200px;
+	height: 200px;
 	background: rgb(255, 102, 204);
 	box-shadow: 0 0 5px rgba(255, 102, 204, 1), 0 0 25px rgba(255, 102, 204, 1),
 		0 0 50px rgba(255, 102, 204, 1), 0 0 100px rgba(255, 102, 204, 1),
 		0 0 200px rgba(255, 102, 204, 0.5), 0 0 300px rgba(255, 102, 204, 0.5);
 	transform-origin: bottom right;
-	animation: animate 1.5s ease-in-out infinite;
+	animation: animate 1.2s ease-in-out infinite;
 }
 
 /* ANIMATION */
@@ -70,6 +70,6 @@ body {
 		transform: translateX(0px);
 	}
 	100% {
-		transform: translate X(-400px);
+		transform: translateX(-195px);
 	}
 }
