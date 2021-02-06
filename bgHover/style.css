@@ -12,7 +12,7 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	overflow: hidden;
-	animation: changeColor 5s linear infinite;
+	animation: changeColor 2s linear infinite;
 }
 
 span {
@@ -35,11 +35,11 @@ span::before {
 		0 0 60px #ff00e3, 0 0 80px #ff00e3, 0 0 100px #ff00e3;
 	border-radius: 50%;
 	pointer-events: none;
-	transition: 2s;
+	transition: 1s;
 }
 
 span:hover::before {
-	transform: scale(1.2);
+	transform: scale(3);
 	transition: 0s;
 }
 
