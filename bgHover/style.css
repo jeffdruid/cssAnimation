@@ -12,6 +12,7 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	overflow: hidden;
+	animation: changeColor 5s linear infinite;
 }
 
 span {
@@ -28,10 +29,10 @@ span::before {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #f000ff;
+	background-color: #ff00e3;
 	transform: scale(0.1);
-	box-shadow: 0 0 10px #f000ff, 0 0 20px #f000ff, 0 0 40px #f000ff,
-		0 0 60px #f000ff, 0 0 80px #f000ff, 0 0 100px #f000ff;
+	box-shadow: 0 0 10px #ff00e3, 0 0 20px #ff00e3, 0 0 40px #ff00e3,
+		0 0 60px #ff00e3, 0 0 80px #ff00e3, 0 0 100px #ff00e3;
 	border-radius: 50%;
 	pointer-events: none;
 	transition: 2s;
@@ -40,4 +41,15 @@ span::before {
 span:hover::before {
 	transform: scale(1.2);
 	transition: 0s;
+}
+
+/* animations */
+
+@keyframes changeColor {
+	0% {
+		filter: hue-rotate(0deg);
+	}
+	100% {
+		filter: hue-rotate(360deg);
+	}
 }
